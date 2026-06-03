@@ -26,7 +26,7 @@ void init_settings() {
     global_settings.angle_depth_clear_fix_mode = AngleDepthClearFixMode::Disabled;
     global_settings.ext_direct_state_access = true;
     global_settings.custom_gl_version = {0, 0, 0}; // will go default
-    global_settings.fsr1_setting = FSR1_Quality_Preset::Enabled;
+    global_settings.fsr1_setting = FSR1_Quality_Preset::Disabled;
     global_settings.hide_mg_env_level = HideMGEnvLevel::Disabled;
 
 #else
