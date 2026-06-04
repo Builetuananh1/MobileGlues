@@ -22,10 +22,10 @@ void init_settings() {
     global_settings.ignore_error = IgnoreErrorLevel::Partial;
     global_settings.ext_compute_shader = true;
     global_settings.max_glsl_cache_size = 120 * 1024 * 1024;
-    global_settings.multidraw_mode = multidraw_mode_t::DrawElements;
+    global_settings.multidraw_mode = multidraw_mode_t::PreferBaseVertex;
     global_settings.angle_depth_clear_fix_mode = AngleDepthClearFixMode::Mode1;
     global_settings.ext_direct_state_access = true;
-    global_settings.custom_gl_version = {0, 0, 0}; // will go default
+    global_settings.custom_gl_version = {4, 6, 0}; // will go default
     global_settings.fsr1_setting = FSR1_Quality_Preset::Disabled;
     global_settings.hide_mg_env_level = HideMGEnvLevel::Disabled;
 
